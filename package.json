@@ -1,0 +1,53 @@
+{
+	"name": "Ferrara Manufacturing | Established 1987",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"serve": "vue-cli-service serve --skip-plugins @vue/cli-plugin-eslint",
+		"build": "vue-cli-service build --skip-plugins @vue/cli-plugin-eslint",
+		"lint": "vue-cli-service lint"
+	},
+	"dependencies": {
+		"axios": "^0.21.1",
+		"core-js": "^3.9.1",
+		"foundation-sites": "^6.4.3",
+		"jquery": "^3.6.0",
+		"module": "^1.2.5",
+		"regenerator-runtime": "^0.13.7",
+		"vue": "^2.6.11",
+		"vue-datocms": "^0.2.4",
+		"vue-meta": "^2.4.0",
+		"vue-plugin-load-script": "^1.3.2",
+		"vue-router": "^3.5.1"
+	},
+	"devDependencies": {
+		"@vue/cli-plugin-babel": "~4.5.0",
+		"@vue/cli-plugin-eslint": "~4.5.0",
+		"@vue/cli-service": "~4.5.0",
+		"babel-eslint": "^10.1.0",
+		"dotenv-webpack": "^7.0.2",
+		"eslint": "^6.7.2",
+		"eslint-plugin-vue": "^6.2.2",
+		"expose-loader": "^2.0.0",
+		"vue-template-compiler": "^2.6.11"
+	},
+	"eslintConfig": {
+		"root": true,
+		"env": {
+			"node": true
+		},
+		"extends": [
+			"plugin:vue/essential",
+			"eslint:recommended"
+		],
+		"parserOptions": {
+			"parser": "babel-eslint"
+		},
+		"rules": {}
+	},
+	"browserslist": [
+		"> 1%",
+		"last 2 versions",
+		"not dead"
+	]
+}

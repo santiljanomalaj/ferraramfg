@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <script type="text/javascript" src="//fast.fonts.net/jsapi/3f7f24a9-2bcf-4ba9-a4fc-02c41053cdab.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+</head>
+
+<body>
+
+  <!-- built files will be auto injected -->
+  <div id="app"></div>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162873074-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-162873074-1');
+  </script>
+
+</body>
+
+</html>
